@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: java-deployment
-        image: demojavaapp.azurecr.io/javasampleapp
+        image: testregistry890.azurecr.io/javaapp
         imagePullPolicy: Always
         ports:
         - containerPort: 80
